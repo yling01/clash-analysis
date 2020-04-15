@@ -1,0 +1,18 @@
+# This file was created Thu Feb 20 15:25:13 2020
+# Created by:
+#                      :-) GROMACS - gmx angle, 2018.6 (-:
+# 
+# Executable:   /cluster/tufts/ysl8/jovan/gromacs_m4/gromacs/bin/gmx_mpi
+# Data prefix:  /cluster/tufts/ysl8/jovan/gromacs_m4/gromacs
+# Working dir:  /cluster/kappa/90-days-archive/yushan/ylin12/tim/dPCA/template_tim_initial/10furtherAnalysis/test
+# Command line:
+#   gmx_mpi angle -f SESEG4_new.pdb -n index.ndx -ov dihedral.xvg -type dihedral -all
+# gmx angle is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "Average Angle: PhiPsi"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Angle (degrees)"
+@TYPE xy
+   0.00000   -22.853   -53.920   179.328   -63.150   -28.703   -76.165   -27.120   -88.854   -38.958    81.539   171.281    61.778  -132.204   -78.317    -3.967   -89.960  -178.251
